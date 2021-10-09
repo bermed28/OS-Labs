@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bermed28/Desktop/CIIC4050/Labs/Lab 2/lab2_4050/ex7.c
+stdio.h
+-
+stdlib.h
+-
+string.h
+-
+unistd.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+netdb.h
+-
+stdbool.h
+-
+sys/un.h
+-
+signal.h
+-
+stdarg.h
+-
+sys/wait.h
+-
+

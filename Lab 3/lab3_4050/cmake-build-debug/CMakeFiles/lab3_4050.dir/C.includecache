@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bermed28/Desktop/CIIC4050/Labs/Lab 3/lab3_4050/thread.c
+stdio.h
+-
+pthread.h
+-
+stdlib.h
+-
+
