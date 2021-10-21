@@ -1,5 +1,5 @@
 # OS-Labs
-Course Laboratories from CIIC4050 (Operating Systems)
+Course Laboratories from CIIC4050 (Operating Systems) \
 Most Laboratories were implemented using Minix 3
 <table class="tg">
 <thead>
