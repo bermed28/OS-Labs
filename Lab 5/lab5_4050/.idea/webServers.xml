@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="8599899b-9482-4a78-8079-2f54ff00a789" name="Minix">
+        <fileTransfer accessType="SFTP" host="localhost" port="2222" sshConfigId="3f6eae36-9ac7-45cf-8890-af6029b19240" sshConfig="root@localhost:2222 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

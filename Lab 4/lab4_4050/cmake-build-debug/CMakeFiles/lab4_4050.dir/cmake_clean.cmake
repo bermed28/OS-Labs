@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab4_4050.dir/ex1.c.o"
+  "CMakeFiles/lab4_4050.dir/ex3.c.o"
   "lab4_4050"
   "lab4_4050.pdb"
 )

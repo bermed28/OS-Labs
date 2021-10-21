@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/ex1.c" "/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/cmake-build-debug/CMakeFiles/lab4_4050.dir/ex1.c.o"
+  "/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/ex3.c" "/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/cmake-build-debug/CMakeFiles/lab4_4050.dir/ex3.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

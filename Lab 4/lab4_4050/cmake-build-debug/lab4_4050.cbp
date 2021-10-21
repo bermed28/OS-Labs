@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/ex1.c">
+		<Unit filename="/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/ex3.c">
 			<Option target="lab4_4050"/>
 		</Unit>
 		<Unit filename="/Users/bermed28/Desktop/CIIC4050/Labs/Lab 4/lab4_4050/CMakeLists.txt">

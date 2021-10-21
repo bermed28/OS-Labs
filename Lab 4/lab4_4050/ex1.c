@@ -1,5 +1,4 @@
 #include <pthread.h>
-#include <semaphore.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -11,29 +10,27 @@ pthread_t tid;
 pthread_mutex_t mutex;
 
 void insert(int item) {
-    if((rear - front + BUFFER_SIZE) % BUFFER_SIZE < BUFFER_SIZE) {
-        pthread_mutex_lock(&mutex);
-        buffer[front] = item;
-        front = (front + 1) % BUFFER_SIZE;
-        printf("front: %d, inserted: %d\n", front, item);
-        pthread_mutex_unlock(&mutex);
+    while((rear - front + BUFFER_SIZE) % BUFFER_SIZE == BUFFER_SIZE); //If buffer is full, wait until it's not full
+    pthread_mutex_lock(&mutex); //Lock critial code
+    buffer[front] = item;
+    front = (front + 1) % BUFFER_SIZE;
+    printf("front: %d, inserted: %d\n", front, item);
+    pthread_mutex_unlock(&mutex);
+    sleep(1);
 
-        sleep(1);
-    }
 }
 
 int remove_item() {
 
     int item;
-    if((rear - front + BUFFER_SIZE) % BUFFER_SIZE > 0) {
-        pthread_mutex_lock(&mutex);
-        item = buffer[rear];
-        rear = (rear + 1) % BUFFER_SIZE;
-        printf("rear: %d, removed: %d\n", rear, item);
-        pthread_mutex_unlock(&mutex);
+    while((rear - front + BUFFER_SIZE) % BUFFER_SIZE == 0); //If buffer is empty, wait until its not empty
+    pthread_mutex_lock(&mutex);
+    item = buffer[rear];
+    rear = (rear + 1) % BUFFER_SIZE;
+    printf("rear: %d, removed: %d\n", rear, item);
+    pthread_mutex_unlock(&mutex);
+    sleep(1);
 
-        sleep(1);
-    }
     return item;
 }
 
@@ -53,6 +50,7 @@ void * consumer(void * param) {
 }
 
 int main(int argc, char * argv[]) {
+    printf("Executing Producer/Consumer using Mutex Locks\n");
     int producers = atoi(argv[1]);
     int consumers = atoi(argv[2]);
     int i;
