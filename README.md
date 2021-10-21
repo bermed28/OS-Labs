@@ -24,5 +24,13 @@ Course Laboratories from CIIC4050 (Operating Systems)
     <td class="tg-0lax">Lab 4 </td>
     <td class="tg-0lax">Process Syncronization</td>
   </tr>
+    <tr>
+    <td class="tg-0lax">Lab 5 </td>
+    <td class="tg-0lax">System Calls & Kernel Calls</td>
+  </tr>
+    <tr>
+    <td class="tg-0lax">Lab 6 </td>
+    <td class="tg-0lax">CPU Scheduling</td>
+  </tr>
 </tbody>
 </table>
