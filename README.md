@@ -33,5 +33,9 @@ Most Laboratories were implemented using Minix 3
     <td class="tg-0lax">Lab 6 </td>
     <td class="tg-0lax">CPU Scheduling</td>
   </tr>
+  <tr>
+    <td class="tg-0lax">Lab 7 </td>
+    <td class="tg-0lax">File Systems</td>
+  </tr>
 </tbody>
 </table>
