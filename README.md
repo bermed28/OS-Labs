@@ -1,6 +1,6 @@
 # OS-Labs
 Course Laboratories from CIIC4050 (Operating Systems) \
-Most Laboratories were implemented using Minix 3
+Most Laboratories were implemented using Minix 3 and the C programming language
 <table class="tg">
 <thead>
   <tr>
@@ -11,7 +11,7 @@ Most Laboratories were implemented using Minix 3
 <tbody>
   <tr>
     <td class="tg-0lax">Lab 1</td>
-    <td class="tg-0lax">Introduction to C programming</td>
+    <td class="tg-0lax">Introduction to C Programming</td>
   </tr>
   <tr>
     <td class="tg-0lax">Lab 2</td>
@@ -23,7 +23,7 @@ Most Laboratories were implemented using Minix 3
   </tr>
   <tr>
     <td class="tg-0lax">Lab 4 </td>
-    <td class="tg-0lax">Process Syncronization</td>
+    <td class="tg-0lax">Process Synchronization</td>
   </tr>
     <tr>
     <td class="tg-0lax">Lab 5 </td>
